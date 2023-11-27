@@ -31,6 +31,7 @@ public class Main1 {
         String[] welcomeMessageArray = inserisciInArray(arrayDiStringhe,userName);
         String welcomeMessage=arrayToString(welcomeMessageArray);
         System.out.println(welcomeMessage);
+        input.close();
 
     }
 

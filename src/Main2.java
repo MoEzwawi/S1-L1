@@ -11,5 +11,7 @@ public class Main2 {
 
         System.out.println("Direct order: " + s1 + " " + s2 + " " + s3);
         System.out.println("Reverse order: " + s3 + " " + s2 + " " + s1);
+        input.close();
+
     }
 }
