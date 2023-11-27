@@ -28,6 +28,7 @@ public class Main3 {
         System.out.println("L'area del triangolo è: " + area);
         System.out.println(" ");
         System.out.println("Arrivederci e grazie");
+        input.close();
     }
     public static double perimetroRettangolo(double b,double h){
         return 2*(b+h);
